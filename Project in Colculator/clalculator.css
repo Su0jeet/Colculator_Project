@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-color: aquamarine;
+}
+h1{
+    color: blue;
+}
+
+.parent{
+    background-color:lightblue;
+    margin-top: 20px;
+    height: 500px;
+    width: 350px;
+    border: 5px solid blueviolet;
+    border-radius: 20px;
+
+}
+.clild{
+    margin-top:5px;
+    
+    height: 40px;
+    width: 300px;
+    
+}
+.innerdiv{
+    
+    margin-top: 30px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: limegreen;
+}
+button:hover{
+    cursor: pointer;
+    color: yellow;
+
+}
+#text{
+    border: 3px solid rebeccapurple;
+    border-radius: 12px;
+    height: 47px;
+    width: 300px;
+    text-align: end;
+    font-size: 40px;
+    background-color:lightslategrey;
+    color: yellow;
+
+}
